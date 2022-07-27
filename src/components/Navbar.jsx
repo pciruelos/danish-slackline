@@ -23,7 +23,7 @@ const Navbar = () => {
         {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24}/>}
       </div>
 
-      <div className={nav ? 'fixed left-0 top-0 w-[60%] border-r border-r-red-900 h-full ease-in-out duration-500' : 'fixed left-[-100%]' }>
+      <div className={nav ? 'fixed z-10 left-0 top-0 w-[60%] border-r border-r-red-900 h-full ease-in-out duration-700 bg-black' : 'fixed left-[-100%]' }>
       <h1 className="w-full text-2xl font-bold text-[#c02222] m-4">Danish Slack Association</h1>
       <ul className="p-4 uppercase">
         <li className="p-4 border-b border-red-400">Home</li>
